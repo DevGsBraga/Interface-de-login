@@ -1,0 +1,134 @@
+:root {
+    background-color: #787878;
+    font-family: 'segoe UI, helvetica, arial, sans-serif';
+    background-image: url('imgs/coffe-logo-illustration.png');
+
+}
+
+.container {
+    width: 60%;
+    height: 70vh;
+    max-width: 650px;
+    max-height: 450px;
+    min-width: 300px;
+    background-color: #b5b5b586;
+    border-radius: 10px;
+    border: 1px solid #236e00;
+    margin: auto;
+    -webkit-box-shadow: 9px 10px 23px 8px rgba(166,166,166,1);
+    -moz-box-shadow: 9px 10px 23px 8px rgba(166,166,166,1);
+    box-shadow: 9px 10px 23px 8px rgba(166,166,166,1);
+}
+
+.log-senha {
+    margin: 5% 10%;
+}
+
+.pink-font {
+    color: #236e00;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+#title-teste {
+    font-size: 15px;
+    font-weight: bold;
+    color: #494949;
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+.g-color {
+    color: rgb(72, 72, 241);
+}
+.o-color {
+    color: #e8258e;
+}
+.o-color2 {
+    color: rgba(139, 139, 46, 0.582);
+}
+.g-color2 {
+    color: rgb(72, 72, 241);
+}
+.l-color {
+    color: rgba(165, 42, 42, 0.514);
+}
+.e-color {
+    color: #e8258e;
+}
+.color__ {
+    color: black;
+}
+.caixas-de-login {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixas-de-login > input {
+    height: 35px;
+    width: 85%;
+    padding-left: 20px;
+    border-radius:10px;
+    border: 1px solid rgb(172, 172, 172) !important;
+    margin-bottom: 3%;
+}
+
+.lembrar-usuario {
+    margin-bottom: 10px;
+    padding-left: 40px;
+    color: #494949;
+}
+
+#submit {
+    width: 70%;
+    border: none;
+    background-color: #236e00;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.botao-entrar {
+    align-items: center;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.esqueci-senha > a , .criar-conta > a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    padding-left: 20px;
+}
+
+.esqueci-senha > a {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    padding-right: 20px;
+}
+
+.criar-conta > a {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo > img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
